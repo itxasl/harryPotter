@@ -1,0 +1,208 @@
+/* css de pagina principal */
+
+body{
+    margin:0px;
+    font-family: 'Jomolhari', serif;  
+}
+
+.spellLink{
+    font-size: 2em;
+}
+.hatLink{
+    font-size: 2em;
+}
+.charactersLink{
+    font-size: 2em;
+}
+.aboutLink{
+    font-size: 2em;
+}
+
+#firstLinks{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(185, 31, 4); 
+}
+
+#frontPage{
+   
+    background-image: url("diagon.jpeg");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.logo{
+    padding: 0%;
+}
+
+/* css de buscador */
+
+#hechizos{  
+    background-image: url("pociones.jpeg");
+    width: 100vw;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-content: center;   
+}
+.spellSellectBox{
+    justify-content: center ;
+    align-content: center;  
+    display:flex;
+    flex-direction: row;
+}
+.spellButtonBox{
+    justify-content: center ;
+    align-content: center;
+    display:flex;
+    flex-direction: row;
+}
+
+#spellButton{
+    font-size: 2em;   
+   
+}
+#spellsSelect{
+    font-size: 1em;
+   
+}
+
+/* sombrero */
+
+
+#hatGroup{
+    background-color:rgb(3, 0, 0);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-content: center; 
+}
+.hatTitle{
+    color: black;
+    justify-content: center ;
+    align-content: center;  
+    display:flex;
+    flex-direction: row;
+
+}
+.hatImageBox{
+    display: flex-end;
+    justify-content: center;
+
+}
+.hatButtonBox{
+    justify-content: center ;
+    align-content: center;  
+    display:flex-end;
+    flex-direction: row;
+}
+
+.hatButton{
+    font-size: 2em;
+    
+}
+
+.houseCardBox{
+   
+    display:flex;
+    flex-direction: row;
+}
+#houseCard{
+    
+    color: white;
+    width: 20em;
+    justify-content: center ;
+    align-content: center; 
+    padding: 2em;   
+    animation-duration: 3s;
+  animation-name: slidein;
+  
+  
+
+}
+
+  
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+
+/* sobrero */
+
+#charactersGroup{
+    background-image: url(photo-1570610159825-ec5d3823660c.jpeg);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-content: center; 
+    
+}
+
+.characterTitle{
+    justify-content: center ;
+    align-content: center;  
+    display:flex;
+    flex-direction: row;
+}
+
+.characterButton{
+    justify-content: center ;
+    align-content: center;  
+    display:flex;
+    flex-direction: row;
+    padding:2em;
+   
+}
+
+#characterCard{
+   display: none;
+    color: white;
+    width: 15em;
+    background-color: rgb(233, 192, 29);
+    border: 1px solid rgb(14, 7, 7);
+    justify-content: center ;
+    align-content: center; 
+    padding: 2em; 
+
+}
+.characterCardBox{
+    justify-content: center ;
+    align-content: center;  
+    display:flex;
+    flex-direction: row;
+    
+}
+
+
+
+/* css de buscador */
+
+/*css de about*/
+
+.aboutPage{
+
+    background-image: url("platform.jpeg");
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+}
+
+/*hechizos*/
+
+
+
